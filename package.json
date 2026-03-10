@@ -1,0 +1,21 @@
+{
+  "name": "mschat-extractor",
+  "version": "1.0.0",
+  "description": "Graphics extraction toolkit for Microsoft Chat 2.5",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write '**/*.{ts,md,json}'",
+    "format:check": "prettier --check '**/*.{ts,md,json}'",
+    "lint": "eslint '**/*.ts'",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}

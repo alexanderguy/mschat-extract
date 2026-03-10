@@ -1,0 +1,48 @@
+# Dispatch directory (local task orchestration)
+dispatch/
+
+# Microsoft proprietary files
+*.exe
+*.dll
+*.hlp
+
+# Extracted graphics (proprietary Microsoft content)
+*.avb
+*.bgb
+*.png
+*.bmp
+*.ico
+*.cur
+*.bin
+
+# Directories with extracted content
+characters/
+backgrounds/
+test-output/
+tmp/
+quick-test/
+final-output/
+final-test/
+test-lzx/
+
+# Build outputs
+dist/
+*.js.map
+tsconfig.tsbuildinfo
+
+# Node modules
+node_modules/
+
+# Makefile stamps
+.make/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
